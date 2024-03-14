@@ -1,0 +1,22 @@
+{
+  "name": "carousel-solver",
+  "module": "src/index.ts",
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/async-exit-hook": "^2.0.2",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "async-exit-hook": "^2.0.1",
+    "puppeteer": "^22.4.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
